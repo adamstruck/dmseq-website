@@ -26,8 +26,8 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
-	<body>
 
+	<body>
 		<!-- Header -->
 			<div id="header" class="skel-layers-fixed">
 
@@ -37,32 +37,25 @@
 						<div id="logo">
 							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
 							<h1 id="title">DMseq</h1>
-							<p>Myotonic Dystrophy <br /> Deep Sequencing Data Repository</p>
+							<p>Deep Sequencing<br /> Data Repository</p>
 						</div>
 
 					<!-- Nav -->
 						<nav id="nav">
 							<!--
-							
 								Prologue's nav expects links in one of two formats:
-								
 								1. Hash link (scrolls to a different section within the page)
-								
 								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
-
 								2. Standard link (sends the user to another page/site)
-
 								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
-							
 							-->
 							<ul>
 								<li><a href="index.html" id="home-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
 								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-leanpub">Contributors</span></a></li>
 								<li><a href="#browser" id="browser-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Genome Browser</span></a></li>
-								<li><a href="#expression" id="shinyap-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Isoform Expression</span></a></li>
+								<li><a href="#isoform-expression-browser" id="shinyap-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Isoform Expression</span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
-
 							</ul>
 						</nav>
 						
@@ -205,7 +198,6 @@
                 <!-- Genome Browser -->
 					<section id="browser" class="three">
 						<div class="container">
-
 							<header>
 								<h2>Genome Browser</h2>
 							</header>
@@ -241,9 +233,9 @@
 								<h2>Contact</h2>
 							</header>
 
-							<p> Questions? Comments? Please report bugs and submit feature requests using this form.</p>
+							<p>Please don't hesitate to submit your questions and comments. Your feedback is appreciated.</p>
 							
-							<form method="post" action="mail.php">
+							<form method="post" action="#">
 								<div class="row 50%">
 									<div class="6u"><input type="text" name="name" placeholder="Name" required="required"/></div>
 									<div class="6u"><input type="email" name="email" placeholder="Email" required="required"/></div>
@@ -258,22 +250,6 @@
 										<input type="submit" value="Send Message" />
 									</div>
 								</div>
-							<!-- 
-								<?php
-								   if ($_POST['submit']) {
-								      if ($name != '' && $email != '') {
-								         if (mail ($to, $subject, $body, $from)) {
-								            echo '<p>Thank you for your email!</p>';
-								         } else {
-      								            echo '<p>Oops! An error occured. Try sending your message again.</p>';
-								         }
-								      } else {
-								         echo '<p>You need to fill in all required fields!</p>';
-								      }
-								   } 
-								?>
-							-->
-	
 							</form>
 
 						</div>
