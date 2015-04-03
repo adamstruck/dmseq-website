@@ -200,12 +200,12 @@
 							
 							<form method="post" action="mail.php">
 								<div class="row 50%">
-									<div class="6u"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="6u"><input type="text" name="name" placeholder="Name" required="required"/></div>
+									<div class="6u"><input type="email" name="email" placeholder="Email" required="required"/></div>
 								</div>
 								<div class="row 50%">
 									<div class="12u">
-										<textarea name="message" placeholder="Message"></textarea>
+										<textarea name="message" placeholder="Message" required="required"></textarea>
 									</div>
 								</div>
 								<div class="row">
@@ -213,6 +213,22 @@
 										<input type="submit" value="Send Message" />
 									</div>
 								</div>
+							<!-- 
+								<?php
+								   if ($_POST['submit']) {
+								      if ($name != '' && $email != '') {
+								         if (mail ($to, $subject, $body, $from)) {
+								            echo '<p>Thank you for your email!</p>';
+								         } else {
+      								            echo '<p>Oops! An error occured. Try sending your message again.</p>';
+								         }
+								      } else {
+								         echo '<p>You need to fill in all required fields!</p>';
+								      }
+								   } 
+								?>
+							-->
+	
 							</form>
 
 						</div>
