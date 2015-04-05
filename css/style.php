@@ -1,6 +1,12 @@
-@charset 'UTF-8';
+<?php
+    header("Content-type: text/css; charset: UTF-8");
+    $banners = array("../images/banner_mit.jpg", "../images/banner_bcm.jpg", "../images/banner_nottingham.jpg");
+    $sizes = array('1em', '2em', '3em');
+?>
+
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
 
 /*
 	Prologue by HTML5 UP
@@ -85,7 +91,7 @@
 		margin: 0 0 2em 0;
 	}
 
-		header > p
+		header > p 
 		{
 			margin: 1em 0 0 0;
             color: #EEE;
@@ -498,13 +504,21 @@
 			{
 				background: #fff;
 				margin: 0;
-				padding: 1em 0 1em 0;
+				padding: 1em .5em 1em .5em;
 				font-size: 0.8em;
 			}
 
 				.item header h3
 				{
 					font-size: 1em;
+                    line-height: 1.5em;
+				}
+				.item header p 
+				{
+					font-size: .8em;
+                    color: #000;
+                    text-shadow:  0px 0px;
+                    line-height: 1.5em;
 				}
 
 /*********************************************************************************/
@@ -772,7 +786,7 @@
 			#main > section.one
 			{
 				background-color: #81918E;
-				background-image: url('../images/banner_mit.jpg');
+				background-image: url("<?php echo $banners[rand(0, sizeof($banners) - 1)]; ?>");
 			}
 
 			#main > section.two

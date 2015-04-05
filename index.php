@@ -20,7 +20,7 @@
 		<script src="js/init.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style.php" />
 			<link rel="stylesheet" href="css/style-wide.css" />
 		</noscript>
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
@@ -50,11 +50,11 @@
 								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
 							-->
 							<ul>
-								<li><a href="index.html" id="home-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-leanpub">Contributors</span></a></li>
-								<li><a href="#browser" id="browser-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Genome Browser</span></a></li>
-								<li><a href="#isoform-expression-browser" id="shinyap-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Isoform Expression</span></a></li>
+								<li><a href="index.php" id="home-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-info-circle">About</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-slideshare">Contributors</span></a></li>
+								<li><a href="#browser" id="browser-link" class="skel-layers-ignoreHref"><span class="icon fa-sliders">Genome Browser</span></a></li>
+								<li><a href="#isoforms" id="shinyap-link" class="skel-layers-ignoreHref"><span class="icon fa-bar-chart">Isoform Expression</span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
 							</ul>
 						</nav>
@@ -104,7 +104,7 @@
 								<h2>About</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<a href="#about" class="image featured"><img src="images/myotonia.jpg" alt="" /></a>
 							
 							<p>Myotonic dystrophy (dystrophia myotonica, "DM") has been described 
                             as "one of the most variable of all human disorders" (Peter Harper). 
@@ -142,51 +142,75 @@
 								<h2>Contributors</h2>
 							</header>
 							
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis 
-							fusce hendrerit lacus ridiculus.</p>
+							<p>This project was supported by NIH ARRA grant 5RC2HG005624-02, 
+                            awarded to principal investigators Christopher Burge, David Housman, and Thomas Cooper.  
+                            It would not have been possible without the generous contributions of
+                            numerous collaborators.
+							</p>
 						
 							<div class="row">
 								<div class="4u">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images/burge_pics.jpg" alt="" /></a>
 										<header>
-											<h3>Ipsum Feugiat</h3>
+                                            <h3>
+											Christopher Burge, MIT<br>
+                                            Eric Wang<br>
+                                            Daniel Treacy</h3>
+                                            <p>Overall study coordination, preparation of deep sequencing libraries, 
+                                            data analysis</p>
 										</header>
 									</article>
+                                </div>
+								<div class="4u">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images/housman_pics.jpg" alt="" /></a>
 										<header>
-											<h3>Rhoncus Semper</h3>
+											<h3>David Housman, MIT<br>
+                                            Thomas Wang</h3>
+                                            <p>Study coordination, RNA isolation from tissue</p> 
 										</header>
 									</article>
 								</div>
 								<div class="4u">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images/cooper_pics.jpg" alt="" /></a>
 										<header>
-											<h3>Magna Nullam</h3>
+											<h3>Tom Cooper, Baylor College of Medicine<br>
+                                            Amanda Ward</h3>
+                                            <p>Study coordination, tissue from mouse models of DM and human autopsies</p>
 										</header>
 									</article>
+                                </div>
+								<div class="4u">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images/thornton_pics.jpg" alt="" /></a>
 										<header>
-											<h3>Natoque Vitae</h3>
+											<h3>Charles Thornton, University of Rochester<br>
+                                            Kirti Bhatt</h3>
+                                            <p>RNA from human biopsies</p>
+										</header>
 										</header>
 									</article>
 								</div>
 								<div class="4u">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images/brook_pics.jpg" alt="" /></a>
 										<header>
-											<h3>Dolor Penatibus</h3>
+											<h3>David Brook, University of Nottingham<br>
+                                            Saam Sedehizadeh</h3>
+                                            <p>Tissue from human biopsies</p>
 										</header>
 									</article>
+                                </div>
+								<div class="4u">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="images/day_pics.jpg" alt="" /></a>
 										<header>
-											<h3>Orci Convallis</h3>
+											<h3>John Day, Stanford & University of Minnesota<br>
+                                            Joline Dalton<br>
+                                            Kenji Takamura</h3>
+                                            <p>Tissue from human autopsies</p>
 										</header>
 									</article>
 								</div>
@@ -202,25 +226,29 @@
 								<h2>Genome Browser</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<a href="browser/" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 							
-							<p>Raw reads can be viewed <a href="browser">here</a>.</p>
+							<p>This genome browser is powered by the <a href="http://epigenomegateway.wustl.edu/" target="_blank">WashU Epigenome Browser</a>.
+                            Raw read density across the genome can be loaded as "Public Browser" tracks.
+                            To view human data, select "hg19".  To view mouse data, select "mm9".</p>
 
 						</div>
 					</section>
                 
                 <!-- Isoform Expression -->
-					<section id="expression" class="two">
+					<section id="isoforms" class="two">
 						<div class="container">
 
 							<header>
 								<h2>Isoform Expression</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<a href="dmseq-shinyapp" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 							
-							<p>Data about gene expression and RNA processing can be viewed <a href="dmseq-shinyapp">here</a>.</p>
-
+							<p>Gene expression values, and isoform expression as estimated by 
+                            <a href="http://genes.mit.edu/burgelab/miso/paper.html" target="_blank">MISO</a>, can be viewed here. 
+                            Search for specific genes, and generate bar plots and sashimi plots.
+                            </p>
 						</div>
 					</section>
 			
