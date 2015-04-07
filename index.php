@@ -153,22 +153,32 @@
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/burge_pics.jpg" alt="" /></a>
 										<header>
-                                            <h3>
-											Christopher Burge, MIT<br>
-                                            Eric Wang<br>
-                                            Daniel Treacy</h3>
-                                            <p>Overall study coordination, preparation of deep sequencing libraries, 
-                                            data analysis</p>
+										  <h3>
+										    Christopher Burge, MIT<br>
+										    Eric Wang<br>
+										    Daniel Treacy</h3>
+										  <p>Overall study coordination, preparation of deep sequencing libraries, 
+										    data analysis</p>
 										</header>
 									</article>
-                                </div>
+								</div>
+								<div class="4u">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/struck_pics.jpg" alt="" /></a>
+										<header>
+										  <h3>
+										    Adam Struck, University of Oregon</h3>
+										  <p>Data analysis lead</p>
+										</header>
+									</article>
+								</div>
 								<div class="4u">
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/housman_pics.jpg" alt="" /></a>
 										<header>
 											<h3>David Housman, MIT<br>
-                                            Thomas Wang</h3>
-                                            <p>Study coordination, RNA isolation from tissue</p> 
+											  Thomas Wang</h3>
+											<p>Study coordination, RNA isolation from tissue</p> 
 										</header>
 									</article>
 								</div>
@@ -177,18 +187,18 @@
 										<a href="#" class="image fit"><img src="images/cooper_pics.jpg" alt="" /></a>
 										<header>
 											<h3>Tom Cooper, Baylor College of Medicine<br>
-                                            Amanda Ward</h3>
-                                            <p>Study coordination, tissue from mouse models of DM and human autopsies</p>
+											  Amanda Ward</h3>
+											<p>Study coordination, tissue from mouse models of DM and human autopsies</p>
 										</header>
 									</article>
-                                </div>
+								</div>
 								<div class="4u">
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/thornton_pics.jpg" alt="" /></a>
 										<header>
 											<h3>Charles Thornton, University of Rochester<br>
-                                            Kirti Bhatt</h3>
-                                            <p>RNA from human biopsies</p>
+											  Kirti Bhatt</h3>
+											<p>RNA from human biopsies</p>
 										</header>
 										</header>
 									</article>
@@ -198,19 +208,19 @@
 										<a href="#" class="image fit"><img src="images/brook_pics.jpg" alt="" /></a>
 										<header>
 											<h3>David Brook, University of Nottingham<br>
-                                            Saam Sedehizadeh</h3>
-                                            <p>Tissue from human biopsies</p>
+											  Saam Sedehizadeh</h3>
+											<p>Tissue from human biopsies</p>
 										</header>
 									</article>
-                                </div>
+								</div>
 								<div class="4u">
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/day_pics.jpg" alt="" /></a>
 										<header>
 											<h3>John Day, Stanford & University of Minnesota<br>
-                                            Joline Dalton<br>
-                                            Kenji Takamura</h3>
-                                            <p>Tissue from human autopsies</p>
+											  Joline Dalton<br>
+											  Kenji Takamura</h3>
+											<p>Tissue from human autopsies</p>
 										</header>
 									</article>
 								</div>
@@ -243,12 +253,12 @@
 								<h2>Isoform Expression</h2>
 							</header>
 
-							<a href="dmseq-shinyapp" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<a href="isoform-expression-browser/" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 							
 							<p>Gene expression values, and isoform expression as estimated by 
-                            <a href="http://genes.mit.edu/burgelab/miso/paper.html" target="_blank">MISO</a>, can be viewed here. 
-                            Search for specific genes, and generate bar plots and sashimi plots.
-                            </p>
+							  <a href="http://genes.mit.edu/burgelab/miso/paper.html" target="_blank">MISO</a>, can be viewed here. 
+							  Search for specific genes, and generate bar plots and sashimi plots.
+							</p>
 						</div>
 					</section>
 			
@@ -275,11 +285,10 @@
 								</div>
 								<div class="row">
 									<div class="12u">
-										<input type="submit" value="Send Message" />
+										<input type="submit" name="submit" value="Send Message" />
 									</div>
 								</div>
 							</form>
-
 						</div>
 					</section>
 			
