@@ -144,9 +144,9 @@
 							</header>
 							
 							<p>This project was supported by NIH ARRA grant 5RC2HG005624-02, 
-                            awarded to principal investigators Christopher Burge, David Housman, and Thomas Cooper.  
-                            It would not have been possible without the generous contributions of
-                            numerous collaborators.
+							  awarded to principal investigators Christopher Burge, David Housman, and Thomas Cooper.  
+							  It would not have been possible without the generous contributions of
+							  numerous collaborators.
 							</p>
 						
 							<div class="row">
@@ -154,12 +154,12 @@
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/burge_pics.jpg" alt="" /></a>
 										<header>
-                                            <h3>
-											Christopher Burge, MIT<br>
-                                            Eric Wang<br>
-                                            Daniel Treacy</h3>
-                                            <p>Overall study coordination, preparation of deep sequencing libraries, 
-                                            data analysis, website development</p>
+										  <h3>
+										    Christopher Burge, MIT<br>
+										    Eric Wang<br>
+										    Daniel Treacy</h3>
+										  <p>Overall study coordination, preparation of deep sequencing libraries, 
+										    data analysis, website development</p>
 										</header>
 									</article>
 								</div>
@@ -188,8 +188,8 @@
 										<a href="#" class="image fit"><img src="images/thornton_pics.jpg" alt="" /></a>
 										<header>
 											<h3>Charles Thornton, University of Rochester<br>
-                                            Kirti Bhatt</h3>
-                                            <p>Human biopsy RNA</p>
+											  Kirti Bhatt</h3>
+											<p>Human biopsy RNA</p>
 										</header>
 									</article>
 								</div>
@@ -198,8 +198,8 @@
 										<a href="#" class="image fit"><img src="images/brook_pics.jpg" alt="" /></a>
 										<header>
 											<h3>David Brook, University of Nottingham<br>
-                                            Saam Sedehizadeh</h3>
-                                            <p>Human biopsy tissue</p>
+											  Saam Sedehizadeh</h3>
+											<p>Human biopsy tissue</p>
 										</header>
 									</article>
 								</div>
@@ -208,25 +208,28 @@
 										<a href="#" class="image fit"><img src="images/day_pics.jpg" alt="" /></a>
 										<header>
 											<h3>John Day, Stanford & University of Minnesota<br>
-                                            Joline Dalton<br>
-                                            Kenji Takamura</h3>
-                                            <p>Human autopsy tissue</p>
+											  Joline Dalton<br>
+											  Kenji Takamura</h3>
+											<p>Human autopsy tissue</p>
 										</header>
 									</article>
 								</div>
-								<div class="4u">
+						
+							</div>
+							<br/>
+							<div class="row">
+							        <div class="4u -4u" >
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/berglund_pics.jpg" alt="" /></a>
 										<header>
 											<h3>J. Andrew Berglund, University of Oregon<br>
-                                            Adam Struck<br>
-                                            </h3>
-                                            <p>Data analysis, website development</p>
+											  Adam Struck<br>
+											</h3>
+											<p>Data analysis, website development</p>
 										</header>
 									</article>
 								</div>
 							</div>
-
 						</div>
 					</section>
                 
@@ -240,11 +243,11 @@
 							<a href="browser/" class="image featured"><img src="images/browser_pic.jpg" alt="" /></a>
 							
 							<p>This genome browser is powered by the <a href="http://epigenomegateway.wustl.edu/" target="_blank">WashU Epigenome Browser</a>.
-                            Raw read density across the genome can be loaded as "Public tracks".
-                            To view human data, select "hg19".  To view mouse data, select "mm9".  Additional transcriptomes from related
-                            studies are also included as "Public tracks".  While you can load your own "custom tracks", <a href="#contact">contact us</a>
-                            to request specific sets of tracks loadable as "data hubs".
-                            </p>
+							  Raw read density across the genome can be loaded as "Public tracks".
+							  To view human data, select "hg19".  To view mouse data, select "mm9".  Additional transcriptomes from related
+							  studies are also included as "Public tracks".  While you can load your own "custom tracks", <a href="#contact">contact us</a>
+							  to request specific sets of tracks loadable as "data hubs".
+							</p>
 
 						</div>
 					</section>
