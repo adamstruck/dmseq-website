@@ -55,6 +55,7 @@
 								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-slideshare">Contributors</span></a></li>
 								<li><a href="#browser" id="browser-link" class="skel-layers-ignoreHref"><span class="icon fa-sliders">Genome Browser</span></a></li>
 								<li><a href="#isoforms" id="shinyap-link" class="skel-layers-ignoreHref"><span class="icon fa-bar-chart">Isoform Expression</span></a></li>
+								<li><a href="#rawdata" id="rawdata" class="skel-layers-ignoreHref"><span class="icon fa-download">Raw Data</span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
 							</ul>
 						</nav>
@@ -158,7 +159,7 @@
                                             Eric Wang<br>
                                             Daniel Treacy</h3>
                                             <p>Overall study coordination, preparation of deep sequencing libraries, 
-                                            data analysis</p>
+                                            data analysis, website development</p>
 										</header>
 									</article>
                                 </div>
@@ -188,7 +189,7 @@
 										<header>
 											<h3>Charles Thornton, University of Rochester<br>
                                             Kirti Bhatt</h3>
-                                            <p>RNA from human biopsies</p>
+                                            <p>Human biopsy RNA</p>
 										</header>
 										</header>
 									</article>
@@ -199,7 +200,7 @@
 										<header>
 											<h3>David Brook, University of Nottingham<br>
                                             Saam Sedehizadeh</h3>
-                                            <p>Tissue from human biopsies</p>
+                                            <p>Human biopsy tissue</p>
 										</header>
 									</article>
                                 </div>
@@ -210,7 +211,18 @@
 											<h3>John Day, Stanford & University of Minnesota<br>
                                             Joline Dalton<br>
                                             Kenji Takamura</h3>
-                                            <p>Tissue from human autopsies</p>
+                                            <p>Human autopsy tissue</p>
+										</header>
+									</article>
+								</div>
+								<div class="4u">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/berglund_pics.jpg" alt="" /></a>
+										<header>
+											<h3>J. Andrew Berglund, University of Oregon<br>
+                                            Adam Struck<br>
+                                            </h3>
+                                            <p>Data analysis, website development</p>
 										</header>
 									</article>
 								</div>
@@ -226,11 +238,14 @@
 								<h2>Genome Browser</h2>
 							</header>
 
-							<a href="browser/" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<a href="browser/" class="image featured"><img src="images/browser_pic.jpg" alt="" /></a>
 							
 							<p>This genome browser is powered by the <a href="http://epigenomegateway.wustl.edu/" target="_blank">WashU Epigenome Browser</a>.
-                            Raw read density across the genome can be loaded as "Public Browser" tracks.
-                            To view human data, select "hg19".  To view mouse data, select "mm9".</p>
+                            Raw read density across the genome can be loaded as "Public tracks".
+                            To view human data, select "hg19".  To view mouse data, select "mm9".  Additional transcriptomes from related
+                            studies are also included as "Public tracks".  While you can load your own "custom tracks", <a href="#contact">contact us</a>
+                            to request specific sets of tracks loadable as "data hubs".
+                            </p>
 
 						</div>
 					</section>
@@ -252,6 +267,19 @@
 						</div>
 					</section>
 			
+                <!-- Raw Data -->
+					<section id="rawdata" class="three">
+						<div class="container">
+							<header>
+								<h2>Raw Data</h2>
+							</header>
+
+							<a href="data/" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							
+							<p>Raw data</p>
+
+						</div>
+					</section>
 
 				<!-- Contact -->
 					<section id="contact" class="four">
