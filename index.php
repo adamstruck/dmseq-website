@@ -162,14 +162,14 @@
                                             data analysis, website development</p>
 										</header>
 									</article>
-                                </div>
+								</div>
 								<div class="4u">
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/housman_pics.jpg" alt="" /></a>
 										<header>
 											<h3>David Housman, MIT<br>
-                                            Thomas Wang</h3>
-                                            <p>Study coordination, RNA isolation from tissue</p> 
+											  Thomas Wang</h3>
+											<p>Study coordination, RNA isolation from tissue</p> 
 										</header>
 									</article>
 								</div>
@@ -178,11 +178,11 @@
 										<a href="#" class="image fit"><img src="images/cooper_pics.jpg" alt="" /></a>
 										<header>
 											<h3>Tom Cooper, Baylor College of Medicine<br>
-                                            Amanda Ward</h3>
-                                            <p>Study coordination, tissue from mouse models of DM and human autopsies</p>
+											  Amanda Ward</h3>
+											<p>Study coordination, tissue from mouse models of DM and human autopsies</p>
 										</header>
 									</article>
-                                </div>
+								</div>
 								<div class="4u">
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/thornton_pics.jpg" alt="" /></a>
@@ -190,7 +190,6 @@
 											<h3>Charles Thornton, University of Rochester<br>
                                             Kirti Bhatt</h3>
                                             <p>Human biopsy RNA</p>
-										</header>
 										</header>
 									</article>
 								</div>
@@ -203,7 +202,7 @@
                                             <p>Human biopsy tissue</p>
 										</header>
 									</article>
-                                </div>
+								</div>
 								<div class="4u">
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/day_pics.jpg" alt="" /></a>
@@ -258,12 +257,12 @@
 								<h2>Isoform Expression</h2>
 							</header>
 
-							<a href="dmseq-shinyapp" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<a href="isoform-expression-browser/" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 							
 							<p>Gene expression values, and isoform expression as estimated by 
-                            <a href="http://genes.mit.edu/burgelab/miso/paper.html" target="_blank">MISO</a>, can be viewed here. 
-                            Search for specific genes, and generate bar plots and sashimi plots.
-                            </p>
+							  <a href="http://genes.mit.edu/burgelab/miso/paper.html" target="_blank">MISO</a>, can be viewed here. 
+							  Search for specific genes, and generate bar plots and sashimi plots.
+							</p>
 						</div>
 					</section>
 			
@@ -303,11 +302,10 @@
 								</div>
 								<div class="row">
 									<div class="12u">
-										<input type="submit" value="Send Message" />
+										<input type="submit" name="submit" value="Send Message" />
 									</div>
 								</div>
 							</form>
-
 						</div>
 					</section>
 			
