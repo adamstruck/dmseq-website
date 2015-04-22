@@ -1,38 +1,21 @@
-Prologue by HTML5 UP
-html5up.net | @n33co
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+The Myotonic Dystrophy Deep Sequencing Data Repository
 
+A collaboration to comprehensively survey the myotonic dystrophy transcriptome.
 
-This is Prologue, a simple, single page responsive site template. It features a
-clean, minimalistic design and a sticky sidebar with navigation-linked scrolling.
-	
-Demo content images* are courtesy of the ridiculously talented Felicia Simion. Check out
-more of her amazing work over at deviantART:
+We hope that this repository and its associated tools will be a valuable resource for the scientific community, so as to accelerate the path towards basic understanding and treatment of DM and related diseases.
 
-http://ineedchemicalx.deviantart.com/
-
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Felicia's work without her explicit permission!)
-
-Demo banner images* courtesy of Unsplash, a radtastic collection of CC0 (public domain)
-images you can use for pretty much whatever.
-
-(* = Not included)
-
-AJ
-n33.co @n33co dribbble.com/n33
-
+Contact:
+	adamjstruck@gmail.com
+	eric.t.wang@gmail.com
 
 Credits:
+	Funding:
+		 NIH ARRA grant 5RC2HG005624-02
 
-	Demo Images:
-		Felicia Simion (ineedchemicalx.deviantart.com)
-		Unsplash (unsplash.com)
-		
 	Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
 
-	Other
+	Other:
 		jQuery (jquery.com)
 		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
 		CSS3 Pie (css3pie.com)
@@ -40,4 +23,9 @@ Credits:
 		jquery.scrolly (n33.co)
 		jquery.scrollzer (n33.co)
 		skel (n33.co)
+
+	Template:
+		Prologue by HTML5 UP
+		html5up.net | @n33co
+		Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
