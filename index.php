@@ -107,29 +107,30 @@
 
 							<a href="#about" class="image featured"><img src="images/myotonia.jpg" alt="" /></a>
 							
-							<p>Myotonic dystrophy (dystrophia myotonica, "DM") has been described 
-                            as "one of the most variable of all human disorders" (Peter Harper). 
-                            It is a microsatellite repeat expansion disorder, and similar to other
-                            repeat expansion diseases, exhibits genetic anticipation. This phenomenon
-                            commonly leads to earlier age of onset and more severe symptoms for children
-                            who inherit the expansion from affected individuals. Both germ line
-                            and somatic instability likely lead to variability in DM symptoms,
-                            which include muscle weakness and wasting, myotonia, cardiac arrhythmia, profound
-                            fatigue, gastrointestinal distress, and cognitive deficits, among others.
-                            </p> 
+							<p>
+								Myotonic dystrophy (dystrophia myotonica, "DM") has been described 
+								as "one of the most variable of all human disorders" (Peter Harper). 
+								It is a microsatellite repeat expansion disorder, and similar to other
+								repeat expansion diseases, exhibits genetic anticipation. This phenomenon
+								commonly leads to earlier age of onset and more severe symptoms for children
+								who inherit the expansion from affected individuals. Both germ line
+								and somatic instability likely lead to variability in DM symptoms,
+								which include muscle weakness and wasting, myotonia, cardiac arrhythmia, profound
+								fatigue, gastrointestinal distress, and cognitive deficits, among others.
+							</p> 
                            
-                            <p> 
-                            While understanding the molecular basis for such a variable disease is challenging,
-                            the scientific community has successfully identified several disease mechanisms that clearly
-                            play a role in DM. Gene expression and RNA processing 
-                            are perturbed in DM, and both processes can be better understood through the study of 
-                            transcriptomes from human samples and animal models. With the help and support of
-                            generous collaborators, and most importantly, patients who have donated precious biological
-                            material, we are able to provide here transcriptome data from DM biopsies, autopsies, 
-                            and animal models. We hope that this repository and its associated tools will
-                            be a valuable resource for the scientific community, so as to accelerate
-                            the path towards basic understanding and treatment of DM and related diseases.
-                            </p> 
+							<p>
+								While understanding the molecular basis for such a variable disease is challenging,
+								the scientific community has successfully identified several disease mechanisms that clearly
+								play a role in DM. Gene expression and RNA processing 
+								are perturbed in DM, and both processes can be better understood through the study of 
+								transcriptomes from human samples and animal models. With the help and support of
+								generous collaborators, and most importantly, patients who have donated precious biological
+								material, we are able to provide here transcriptome data from DM biopsies, autopsies, 
+								and animal models. We hope that this repository and its associated tools will
+								be a valuable resource for the scientific community, so as to accelerate
+								the path towards basic understanding and treatment of DM and related diseases.
+							</p> 
 
 						</div>
 					</section>
@@ -293,19 +294,23 @@
 
 							<p>Please don't hesitate to submit your questions and comments. Your feedback is appreciated.</p>
 							
-							<form method="post" action="#">
+							<form action="https://formspree.io/dmsequencing@gmail.com" method="POST">
 								<div class="row 50%">
 									<div class="6u"><input type="text" name="name" placeholder="Name" required="required"/></div>
-									<div class="6u"><input type="email" name="email" placeholder="Email" required="required"/></div>
+									<div class="6u"><input type="email" name="_replyto" placeholder="Email" required="required"/></div>
+									<input type="hidden" name="_subject" value="New submission from dmseq.org/#contact" />
+									<input type="hidden" name="_cc" value="struck@uoregon.edu" />
 								</div>
 								<div class="row 50%">
 									<div class="12u">
-										<textarea name="message" placeholder="Message" required="required"></textarea>
+										<textarea type="text" name="content" placeholder="Message" required="required"></textarea>
 									</div>
 								</div>
 								<div class="row">
 									<div class="12u">
+										<input type="text" name="_gotcha" style="display:none" />
 										<input type="submit" name="submit" value="Send Message" />
+										<!--- <input type="hidden" name="_next" value="/thanks.html" /> --->
 									</div>
 								</div>
 							</form>
