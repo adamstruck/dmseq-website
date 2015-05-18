@@ -237,6 +237,14 @@ article:last-child
     width: 100%;
     margin: 0 0 2em 0;
 }
+
+.image.normal
+{
+    float: center;
+    width: 15%;
+    margin: 0 0 2em 0;
+
+}
 			
 .image.left
 {
