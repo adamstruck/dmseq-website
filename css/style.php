@@ -170,6 +170,7 @@ br.clear
     clear: both;
 }
 
+
 /* Sections/Article */
 
 section,
@@ -810,4 +811,21 @@ input[type="reset"]:active,
 #main > section.four
 {
     background-color: #e8edec;
+}
+
+.left-align
+{
+    text-align: left;
+}
+
+.pre{
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  margin-bottom: 10px;
+  font-size: .8em;
+  padding: 10px;
+  color:#eee;
+  background-color: #333;
+  padding-bottom: 20px!ie7;
+  text-align: left;
+  text-wrap: normal;
 }
