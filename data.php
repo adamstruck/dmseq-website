@@ -105,7 +105,7 @@
 	  <p class="left-align">
 	    Mapped read files (bam) can be found below (PENDING). Reads were mapped using <a href="gsnap">gsnap</a>: 
       <p class="left-align pre">
-      gsnap &lt;fastq1&gt; &lt;fastq2&gt; -g &lt;genome&gt; &gt; &lt;bam&gt;
+      gsnap ...
       </p>
       </p>
 	  
